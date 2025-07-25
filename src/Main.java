@@ -38,6 +38,15 @@ public class Main{
         var friend1 = friend / 7;
         System.out.println("Делить на семь = " +friend1);
 
+        System.out.println("Задание 5");
+        var frog = 3.5;
+        System.out.println("Начальное значение = " +frog);
+        frog = frog * 10;
+        System.out.println("Увеличено в 10 раз = " +frog);
+        frog = frog / 3.5;
+        System.out.println("Поделено на 3,5 = " +frog);
+        frog = frog + 4;
+        System.out.println("Добавлено 4 = " + frog);
 
     }
 }
