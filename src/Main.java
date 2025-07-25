@@ -56,5 +56,9 @@ public class Main{
         var differenceBoxer = twoBoxer - oneBoxer;
         System.out.println("Разница в весе " +differenceBoxer +" кг!");
 
+        System.out.println("Задание 7");
+        var weightRemainder = (twoBoxer % oneBoxer);
+        System.out.println("Остаток " +weightRemainder);
+
     }
 }
