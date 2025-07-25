@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Main{
     public static void main(String[] args){
         System.out.println("Задание 1");
@@ -59,6 +61,17 @@ public class Main{
         System.out.println("Задание 7");
         var weightRemainder = (twoBoxer % oneBoxer);
         System.out.println("Остаток " +weightRemainder);
+
+        System.out.println("Задание 8");
+        var watch = 640;
+        var worker = 8;
+        var totalWorker = watch / worker;
+        System.out.println("Всего работников в компании " + totalWorker +" человек");
+        var moreWorker = 94;
+        var moreWorkerPlus = moreWorker + totalWorker;
+        var watchPlus = watch / moreWorkerPlus;
+        System.out.println("Если в компании работает " +moreWorkerPlus + " человек, то всего " + watchPlus + " часов работы может быть поделено между сотрудниками");
+
 
     }
 }
