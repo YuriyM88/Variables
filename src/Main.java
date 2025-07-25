@@ -71,7 +71,5 @@ public class Main{
         var moreWorkerPlus = moreWorker + totalWorker;
         var watchPlus = watch / moreWorkerPlus;
         System.out.println("Если в компании работает " +moreWorkerPlus + " человек, то всего " + watchPlus + " часов работы может быть поделено между сотрудниками");
-
-
     }
 }
