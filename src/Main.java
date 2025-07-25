@@ -30,6 +30,14 @@ public class Main{
         paper3 = paper3 - 7639;
         System.out.println("Бумага минус 7639 =  " +paper3);
 
+        System.out.println("Задание 4");
+        var friend = 19;
+        System.out.println("Начальное значение = " +friend);
+        friend = friend + 2;
+        System.out.println("Плюс два = " +friend);
+        var friend1 = friend / 7;
+        System.out.println("Делить на семь = " +friend1);
+
 
     }
 }
